@@ -19,6 +19,7 @@ APPROACH:-
 -> while iterating check if nums[i] is a non-zero element.
     -> if yes, swap(nums[lastNonZeroIndex], nums[i]) and increment lastNonZeroIndex by +1
 -> the advantage is that we dont need to do another pass looking for next zeroth element unlike brute force
+-> here lastNonZeroIndex is always ahead of i, so no swap will take place when i == lastNonZeroIndex
 */
 
 // CODE:-
